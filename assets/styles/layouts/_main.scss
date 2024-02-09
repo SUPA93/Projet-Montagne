@@ -68,6 +68,14 @@ main {
             grid-template-columns: 1fr;
         }
 
+        img{
+            &:hover {
+                transform: scale(1.1);
+                transition: 1s;
+                box-shadow: 0px 10px 5px $grey3;
+            }
+        }
+
         .left-part, .right-part{
             padding: 60px;
 
